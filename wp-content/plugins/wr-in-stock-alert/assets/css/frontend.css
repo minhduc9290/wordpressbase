@@ -1,0 +1,166 @@
+/**
+ * @version    1.0
+ * @package    WR_In_Stock_Alert
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+
+.hidden {
+	display: none ! important;
+}
+#in-stock-alert-link {
+	font-size: 12px;
+	padding: 0 20px;
+	text-transform: none;
+}
+#in-stock-alert:after {
+	content:"";
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9998;
+	background: rgba(0, 0, 0, .6);
+	display: none;
+}
+.in-stock-alert-mask .header-outer + div {
+	z-index: 11 !important;
+}
+#in-stock-alert.show:after {
+	display: block;
+}
+#in-stock-alert-form {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	padding: 55px 45px;
+	overflow: auto;
+	background: #fff;
+	font-size: 14px;
+	text-align: center;
+	max-width: 520px;
+	width: 100%;
+	z-index: 9999;
+	-webkit-transform: translate(-50%,-50%) scale(0);
+	-ms-transform: translate(-50%,-50%) scale(0);
+	-o-transform: translate(-50%,-50%) scale(0);
+	transform: translate(-50%,-50%) scale(0);
+}
+#in-stock-alert.show #in-stock-alert-form {
+	-webkit-transform: translate(-50%,-50%) scale(1);
+	-ms-transform: translate(-50%,-50%) scale(1);
+	-o-transform: translate(-50%,-50%) scale(1);
+	transform: translate(-50%,-50%) scale(1);
+}
+#in-stock-alert-form form {
+	padding: 0 40px;
+}
+#in-stock-alert-form .close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/close.png");
+	cursor: pointer;
+}
+#in-stock-alert-form h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #646464;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+#in-stock-alert-form input,
+#in-stock-alert-form button {
+	margin-bottom: 6px;
+	width: 100%;
+	height: 45px;
+	border: 1px solid #ebebeb;
+	background: none;
+	font-size: 14px;
+	text-align: center;
+	box-shadow: none;
+}
+#in-stock-alert-form button {
+	background: #3d3d3d;
+	border: 1px solid #3d3d3d;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+#in-stock-alert-form,
+#in-stock-alert-form input,
+#in-stock-alert-form button {
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+#in-stock-alert-form input:hover {
+	border-color: #3d3d3d;
+}
+#in-stock-alert-form button:hover {
+	background: #7ebe1a;
+	border-color: #7ebe1a;
+}
+#in-stock-alert-form .message-content img {
+	margin: 0 auto;
+	display: block;
+}
+.wr-isa-loading {
+	margin: 0 auto;
+	font-size: 10px;
+	position: relative;
+	text-indent: -9999em;
+	border-top: 2px solid rgba(0, 0, 0, .2);
+	border-right: 2px solid rgba(0, 0, 0, .2);
+	border-bottom: 2px solid rgba(0, 0, 0, .2);
+	border-left: 2px solid #3d3d3d;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-animation: wr-isa-loading 1.1s infinite linear;
+	animation: wr-isa-loading 1.1s infinite linear;
+}
+.wr-isa-loading,
+.wr-isa-loading:after {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
+@-webkit-keyframes wr-isa-loading {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes wr-isa-loading {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+ 	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@media (max-width: 480px) {
+	#in-stock-alert-form {
+		width: 90%;
+	}
+	#in-stock-alert-form form {
+		padding: 0;
+	}
+}

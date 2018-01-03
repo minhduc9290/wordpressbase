@@ -1,0 +1,585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nitro Gallery\n"
+"POT-Creation-Date: 2017-01-10 15:02+0700\n"
+"PO-Revision-Date: 2017-01-10 15:03+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: main.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/customize.php:34 includes/post-type.php:50
+#: includes/post-type.php:52 includes/shortcodes.php:256
+msgid "Gallery"
+msgstr ""
+
+#: includes/customize.php:35
+msgid ""
+"In this panel, you can customize all setings for Gallery. Please install "
+"Nitro Toolkit plugin first to see all modifications on this panel."
+msgstr ""
+
+#: includes/customize.php:39
+msgid "Archive Gallery"
+msgstr ""
+
+#: includes/customize.php:100
+msgid "Gallery Slug"
+msgstr ""
+
+#: includes/customize.php:101
+msgid ""
+"This option changes the permalink when you use the permalink type as "
+"%postname%. Make sure to regenerate permalinks."
+msgstr ""
+
+#: includes/customize.php:106 includes/customize.php:293
+msgid "Layout"
+msgstr ""
+
+#: includes/customize.php:112 includes/customize.php:299
+#: includes/shortcodes.php:93
+msgid "Grid"
+msgstr ""
+
+#: includes/customize.php:116 includes/customize.php:303
+#: includes/shortcodes.php:94
+msgid "Masonry"
+msgstr ""
+
+#: includes/customize.php:121 includes/customize.php:316
+#: includes/shortcodes.php:100
+msgid "Thumbnail Shape"
+msgstr ""
+
+#: includes/customize.php:127 includes/customize.php:322
+#: includes/shortcodes.php:104
+msgid "Square"
+msgstr ""
+
+#: includes/customize.php:131 includes/customize.php:326
+msgid "Horizontal Rectangle"
+msgstr ""
+
+#: includes/customize.php:135 includes/customize.php:330
+msgid "Vertical Rectangle"
+msgstr ""
+
+#: includes/customize.php:141 includes/customize.php:389
+msgid "Columns"
+msgstr ""
+
+#: includes/customize.php:145 includes/customize.php:393
+#: includes/shortcodes.php:121
+msgid "2 Columns"
+msgstr ""
+
+#: includes/customize.php:146 includes/customize.php:394
+#: includes/shortcodes.php:122
+msgid "3 Columns"
+msgstr ""
+
+#: includes/customize.php:147 includes/customize.php:395
+#: includes/shortcodes.php:123
+msgid "4 Columns"
+msgstr ""
+
+#: includes/customize.php:148 includes/customize.php:396
+#: includes/shortcodes.php:124
+msgid "5 Columns"
+msgstr ""
+
+#: includes/customize.php:149 includes/customize.php:397
+#: includes/shortcodes.php:125
+msgid "6 Columns"
+msgstr ""
+
+#: includes/customize.php:153
+msgid "Number of item per page"
+msgstr ""
+
+#: includes/customize.php:162 includes/customize.php:405
+msgid "Space Between Items"
+msgstr ""
+
+#: includes/customize.php:163 includes/customize.php:406
+msgid "The width of the space between columns"
+msgstr ""
+
+#: includes/customize.php:174
+msgid "Style"
+msgstr ""
+
+#: includes/customize.php:180
+msgid "Inside thumbnail"
+msgstr ""
+
+#: includes/customize.php:184
+msgid "Outside thumbnail"
+msgstr ""
+
+#: includes/customize.php:189 includes/shortcodes.php:161
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/customize.php:195 includes/shortcodes.php:171
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/customize.php:209 includes/shortcodes.php:150
+msgid "Enable Slider For Thumbnail"
+msgstr ""
+
+#: includes/customize.php:215 includes/customize.php:336
+msgid "Enable Full Width"
+msgstr ""
+
+#: includes/customize.php:220
+msgid "Enable Filter"
+msgstr ""
+
+#: includes/customize.php:225 includes/shortcodes.php:192
+msgid "Filter Alignment"
+msgstr ""
+
+#: includes/customize.php:229 includes/shortcodes.php:195
+msgid "Left"
+msgstr ""
+
+#: includes/customize.php:230 includes/shortcodes.php:196
+msgid "Center"
+msgstr ""
+
+#: includes/customize.php:231 includes/shortcodes.php:197
+msgid "Right"
+msgstr ""
+
+#: includes/customize.php:236
+msgid "Enable Item Animation"
+msgstr ""
+
+#: includes/customize.php:244
+msgid "Single Gallery"
+msgstr ""
+
+#: includes/customize.php:307
+msgid "Horizontal"
+msgstr ""
+
+#: includes/customize.php:311
+msgid "Slider"
+msgstr ""
+
+#: includes/customize.php:346
+msgid "Slider Type"
+msgstr ""
+
+#: includes/customize.php:352
+msgid "Full screen"
+msgstr ""
+
+#: includes/customize.php:356
+msgid "Carousel"
+msgstr ""
+
+#: includes/customize.php:362
+msgid "Enable Autoplay"
+msgstr ""
+
+#: includes/customize.php:368
+msgid "Enable Mousewheel Scrolling"
+msgstr ""
+
+#: includes/customize.php:374
+msgid "Enable Pagination"
+msgstr ""
+
+#: includes/customize.php:380
+msgid "Enable Thumbnail Navigation"
+msgstr ""
+
+#: includes/customize.php:418
+msgid "Show Related Gallery"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/post-type.php:49 includes/post-type.php:51
+#: includes/shortcodes.php:75
+msgid "Nitro Gallery"
+msgstr ""
+
+#: includes/post-type.php:53
+msgid "Add New"
+msgstr ""
+
+#: includes/post-type.php:54
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/post-type.php:55
+msgid "New Gallery"
+msgstr ""
+
+#: includes/post-type.php:56
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/post-type.php:57
+msgid "View Gallery"
+msgstr ""
+
+#: includes/post-type.php:58
+msgid "All Gallery"
+msgstr ""
+
+#: includes/post-type.php:59
+msgid "Search Gallery"
+msgstr ""
+
+#: includes/post-type.php:60
+msgid "Parent Gallery:"
+msgstr ""
+
+#: includes/post-type.php:61
+msgid "No gallery found."
+msgstr ""
+
+#: includes/post-type.php:62
+msgid "No gallery found in Trash."
+msgstr ""
+
+#: includes/post-type.php:85 includes/post-type.php:95
+msgid "Categories"
+msgstr ""
+
+#: includes/post-type.php:86 includes/shortcodes.php:81
+msgid "Category"
+msgstr ""
+
+#: includes/post-type.php:87
+msgid "Search Categories"
+msgstr ""
+
+#: includes/post-type.php:88
+msgid "All Categories"
+msgstr ""
+
+#: includes/post-type.php:89
+msgid "Parent Category"
+msgstr ""
+
+#: includes/post-type.php:90
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/post-type.php:91
+msgid "Edit Category"
+msgstr ""
+
+#: includes/post-type.php:92
+msgid "Update Category"
+msgstr ""
+
+#: includes/post-type.php:93
+msgid "Add New Category"
+msgstr ""
+
+#: includes/post-type.php:94
+msgid "New Category Name"
+msgstr ""
+
+#: includes/post-type.php:111 includes/post-type.php:126
+msgid "Tags"
+msgstr ""
+
+#: includes/post-type.php:112
+msgid "Tag"
+msgstr ""
+
+#: includes/post-type.php:113
+msgid "Search Tags"
+msgstr ""
+
+#: includes/post-type.php:114
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/post-type.php:115
+msgid "All Tags"
+msgstr ""
+
+#: includes/post-type.php:118
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/post-type.php:119
+msgid "Update Tag"
+msgstr ""
+
+#: includes/post-type.php:120
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/post-type.php:121
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/post-type.php:122
+msgid "Separate writers with commas"
+msgstr ""
+
+#: includes/post-type.php:123
+msgid "Add or remove writers"
+msgstr ""
+
+#: includes/post-type.php:124
+msgid "Choose from the most used writers"
+msgstr ""
+
+#: includes/post-type.php:125
+msgid "No writers found."
+msgstr ""
+
+#: includes/post-type.php:156 includes/post-type.php:159
+msgid "Gallery updated."
+msgstr ""
+
+#: includes/post-type.php:157
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/post-type.php:158
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/post-type.php:161
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: includes/post-type.php:162
+msgid "Gallery published."
+msgstr ""
+
+#: includes/post-type.php:163
+msgid "Gallery saved."
+msgstr ""
+
+#: includes/post-type.php:164
+msgid "Gallery submitted."
+msgstr ""
+
+#: includes/post-type.php:166
+#, php-format
+msgid "Gallery scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/post-type.php:168
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/post-type.php:170
+msgid "Gallery draft updated."
+msgstr ""
+
+#: includes/post-type.php:176
+msgid "View gallery"
+msgstr ""
+
+#: includes/post-type.php:182
+msgid "Preview gallery"
+msgstr ""
+
+#: includes/post-type.php:262
+msgid "Related Galleries"
+msgstr ""
+
+#: includes/shortcodes.php:46
+msgid "Date"
+msgstr ""
+
+#: includes/shortcodes.php:47
+msgid "ID"
+msgstr ""
+
+#: includes/shortcodes.php:48
+msgid "Author"
+msgstr ""
+
+#: includes/shortcodes.php:49
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes.php:50
+msgid "Modified"
+msgstr ""
+
+#: includes/shortcodes.php:51
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes.php:52
+msgid "Comment count"
+msgstr ""
+
+#: includes/shortcodes.php:53
+msgid "Menu order"
+msgstr ""
+
+#: includes/shortcodes.php:57
+msgid "Descending"
+msgstr ""
+
+#: includes/shortcodes.php:58
+msgid "Ascending"
+msgstr ""
+
+#: includes/shortcodes.php:63 includes/shortcodes.php:376
+#: includes/shortcodes.php:378
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes.php:78 includes/shortcodes.php:259
+msgid "Nitro Elements"
+msgstr ""
+
+#: includes/shortcodes.php:89
+msgid "Gallery Style"
+msgstr ""
+
+#: includes/shortcodes.php:105
+msgid "Rectangle Horizontal"
+msgstr ""
+
+#: includes/shortcodes.php:106
+msgid "Rectangle Vertical"
+msgstr ""
+
+#: includes/shortcodes.php:117
+msgid "Number Of Columns"
+msgstr ""
+
+#: includes/shortcodes.php:132
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/shortcodes.php:135
+msgid "Display info of gallery items on mouse hovering"
+msgstr ""
+
+#: includes/shortcodes.php:136
+msgid "Always show info of gallery items"
+msgstr ""
+
+#: includes/shortcodes.php:142
+msgid "Enter space value (<i>Unit: pixel</i>)"
+msgstr ""
+
+#: includes/shortcodes.php:152 includes/shortcodes.php:163
+#: includes/shortcodes.php:188
+msgid "Yes"
+msgstr ""
+
+#: includes/shortcodes.php:181
+msgid "Enable Animation for each item?"
+msgstr ""
+
+#: includes/shortcodes.php:186
+msgid "Enable Filter?"
+msgstr ""
+
+#: includes/shortcodes.php:207
+msgid "Number Of Items To Show Per Page"
+msgstr ""
+
+#: includes/shortcodes.php:208
+msgid "Number only, -1 to show all posts"
+msgstr ""
+
+#: includes/shortcodes.php:214
+msgid "Items"
+msgstr ""
+
+#: includes/shortcodes.php:215
+msgid "Input gallery ID or product title to see suggestions"
+msgstr ""
+
+#: includes/shortcodes.php:226
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcodes.php:231
+#, php-format
+msgid "Select how to sort retrieved gallerys. More at %s. Default by Title"
+msgstr ""
+
+#: includes/shortcodes.php:235
+msgid "Sort order"
+msgstr ""
+
+#: includes/shortcodes.php:240
+#, php-format
+msgid ""
+"Designates the ascending or descending order. More at %s. Default by ASC"
+msgstr ""
+
+#: includes/shortcodes.php:244
+msgid "Hidden ID"
+msgstr ""
+
+#: includes/shortcodes.php:264
+msgid "Display gallery by ID"
+msgstr ""
+
+#: includes/shortcodes.php:415 templates/archive.php:128
+msgid "View Detail"
+msgstr ""
+
+#: templates/archive.php:89 templates/archive.php:91
+msgid "Show All"
+msgstr ""
+
+#: templates/single.php:74
+msgid "Previous gallery"
+msgstr ""
+
+#: templates/single.php:76
+msgid "No gallery previous"
+msgstr ""
+
+#: templates/single.php:79
+msgid "Back to galleries"
+msgstr ""
+
+#: templates/single.php:81
+msgid "Next gallery"
+msgstr ""
+
+#: templates/single.php:83
+msgid "No gallery next"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.woorockets.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The best responsive WordPress gallery plugin. It's easy and powerful."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooRockets <admin@woorockets.com>"
+msgstr ""
