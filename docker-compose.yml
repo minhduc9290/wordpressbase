@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  wp:
+    image: wordpress
+    ports:
+      - 6969:80
+    volumes:
+      -  ./:/var/www/html
+    environment:
+      WORDPRESS_DB_HOST: wp-db
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: mysqlpass
+    depends_on:
+      - wp-db
+
+  wp-db:
+    image: mariadb
+    volumes:
+      - wp-db-volume:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqlpass
+
+volumes:
+  wp-db-volume:

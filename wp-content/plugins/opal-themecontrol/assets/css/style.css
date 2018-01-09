@@ -1,0 +1,308 @@
+/**
+* General
+*/
+.first-child{
+  clear: both;
+}
+.first{
+  clear: both;
+}
+.mgt10 {
+    margin-top: 10px;
+}
+.pa {
+    position: absolute;
+}
+.db {
+    display: block;
+}
+
+/***********************************************************
+* Single Gallery
+************************************************************/
+#page_caption.hasbg #bg_regular {
+  opacity: 1;
+}
+#page_caption.hasbg #bg_regular, #page_caption.hasbg #bg_blurred {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: absolute;
+  transform: translate3d(0px, 0px, 0px);
+  width: 100%;
+}
+#page_caption.split.wide, #page_caption.hasbg.split.wide {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: currentcolor #fff currentcolor currentcolor;
+  border-image: none;
+  border-style: none solid none none;
+  border-width: 0 1px 0 0;
+}
+
+
+#page_content_wrapper.split, .page_content_wrapper.split, #page_content_wrapper.split.wide, .page_content_wrapper.split.wide {
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 70px;
+  width: calc(70% - 20px);
+}
+
+#page_content_wrapper.split.wide, .page_content_wrapper.split.wide {
+  padding: 0;
+  width: 70%;
+}
+
+#page_caption.split, #page_caption.hasbg.split {
+  border: 20px solid #fff;
+  height: 100vh;
+  left: 0;
+  min-height: 100%;
+  padding: 0;
+  position: fixed;
+  top: 70px;
+  width: 30%;
+}
+#page_caption.hasbg {
+  height: 70vh;
+}
+#page_caption.split, #page_caption.hasbg.split {
+  border: 20px solid #fff;
+  height: 100vh;
+  left: 0;
+  min-height: 100%;
+  padding: 0;
+  position: fixed;
+  top: 70px;
+  width: 30%;
+}
+#page_caption.hasbg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0 none;
+  height: 60%;
+  padding: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#page_content_wrapper .inner .sidebar_content.full_width, .page_content_wrapper .inner .sidebar_content.full_width {
+  border: 0 none;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+#portfolio_filter_wrapper.gallery.wide, .portfolio_filter_wrapper.gallery.wide {
+  margin: 0;
+  width: 101%;
+}
+
+.cols-2.gallery .element {
+  box-sizing: border-box;
+  margin-bottom: 2.9%;
+  margin-right: 2.9%;
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out 0s;
+  width: 47%;
+}
+.cols-2.gallery.wide .element {
+  margin: 0 -1px 0 0;
+  width: 49.9%;
+}
+.element.classic2_cols {
+  float: left;
+  height: auto;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 49.8%;
+}
+.cols-3.gallery.wide .element {
+  margin: 0 -1px 0 0;
+  width: 32.9%;
+}
+.cols-3.gallery .element {
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out 0s;
+  width: 31%;
+}
+.element.classic3_cols {
+  float: left;
+  height: auto;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 32.8%;
+}
+.cols-4.gallery.wide .element {
+  margin: 0 -1px 0 0;
+  width: 24.9%;
+}
+.cols-4.gallery .element {
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out 0s;
+  width: 22.9%;
+}
+.element.classic4_cols {
+  float: left;
+  height: auto;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 24.8%;
+}
+.cols-5.gallery.wide .element {
+  margin: 0 -1px 0 0;
+  width: 19.9%;
+}
+.cols-5.gallery .element {
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out 0s;
+  width: 18%;
+}
+.element.classic5_cols {
+  float: left;
+  height: auto;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 19.8%;
+}
+
+.gallery .element img:hover{
+  transform: scale(1.1);
+}
+.gallery .element img{
+  backface-visibility: hidden;
+  height: auto;
+  transform: scale(1);
+  transition: all 4.5s ease-out 0s;
+  width: 100%;
+}
+
+.isotope .isotope-item {
+  opacity: 1 !important;
+  transition-property: transform, opacity;
+}
+
+.one_half.gallery2.static {
+  overflow: hidden;
+}
+.one_half.gallery2 {
+  float: left;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.one_half {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 3.5%;
+  width: 48%;
+}
+.fadeIn {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+  display: inline-block !important;
+  visibility: visible !important;
+}
+ .gallry-site-header{
+   display: block;
+   float: left;
+   left: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 9;
+ }
+ .gallery-item{
+   height: 600px;
+ }
+ .gallery-thumb .owl-carousel .owl-item img {
+    height: 100%;
+    object-fit: cover;
+    transform-style: initial;
+}
+.gallery-thumb .owl-thumb-item img {
+    height: auto;
+    width: 150px;
+}
+.gallery-thumb .owl-thumbs {
+    bottom: 0;
+    display: table;
+    left: 0;
+    padding: 7%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.gallery-thumb .owl-thumb-item {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    display: table-cell;
+    opacity: 0.4;
+    padding: 0;
+}
+.gallery-thumb .owl-thumb-item.active {
+    opacity: 1;
+}
+/***********************************************************
+* Owl Carousel
+************************************************************/
+.owl-carousel .owl-item img {
+    height: 100%;
+    object-fit: cover;
+    transform-style: initial;
+}
+.owl-thumb-item img {
+    height: auto;
+    width: 100px;
+}
+.owl-thumbs {
+    bottom: 0;
+    display: table;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.owl-thumb-item {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    display: table-cell;
+    opacity: 0.4;
+    padding: 0;
+}
+.owl-thumb-item.active {
+    opacity: 1;
+}

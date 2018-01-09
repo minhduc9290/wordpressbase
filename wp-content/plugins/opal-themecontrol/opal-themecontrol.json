@@ -1,0 +1,22 @@
+{
+    "name" : "WPOPAL Framework For Themes",
+    "slug" : "opal-themecontrol",
+    "homepage" : "http://opalthemer.com/",
+    "download_url" : "http://www.opalthemer.com/_opalfw_/opal-themecontrol.zip",
+    
+    "version" : "1.0.0.0",
+    "requires" : "4.3",
+    "tested" : "4.7.2",
+    "last_updated" : "2017-01-13 12:00:00",
+    "upgrade_notice" : "Here's why you should upgrade...",
+    
+    "author" : "WPOPAL",
+    "author_homepage" : "http://opalthemer.com/",
+    
+    "sections" : {
+        "description" : "Implement rich functions for themes base on prestabrain wordpress framework and load widgets for theme used, this is required.",
+        "installation" : "Upload or install by notice required the Wpopal Framework For Themes plugin to your site, Activate it.",
+        "changelog" : " Changelog. <h4>1.0.0.0</h4><p><em>Release Date - 13 January 2017</em><ul><li>Update function export data</li><h4>1.2.5.9</h4><p><em>Release Date - 23 December 2016</em><ul><li>Remove config setting posttype</li><h4>1.2.5.8</h4><p><em>Release Date - 07 December 2016</em><ul><li>Fix link logo on login popup</li><li>Fix funtion config testimonial</li><h4>1.2.5.7</h4><p><em>Release Date - 21 November 2016</em><ul><li>Fix show list megamenu config</li><li>Fix some bug</li></ul><h4>1.2.5.6</h4><p><em>Release Date - 14 November 2016</em><ul><li>Add widget server</li><li>Fix widget twitter</li><li>Fix posttypr team</li><li>Fix some bug</li></ul><h4>1.2.5.5</h4><p><em>Release Date - 14 October 2016</em><ul><li>Fix bug add link for single image</li><li>Fix bug notice when add widget vertical menu</li><li>Fix some bug in plugin</li></ul><h4>1.2.5.4</h4><p><em>Release Date - 04 October 2016</em><ul><li>Fix some bug in plugin</li></ul><h4>1.2.5.3</h4><p><em>Release Date - 22 September 2016</em><ul><li>Add widget latest posts for plugin</li><li>Fix bug for wiget flickr</li></ul><h4>1.2.5.2</h4><p><em>Release Date - 20 September 2016</em><ul><li>Add class Account for plugin</li><li>Add class Menu for plugin</li><li>Add class Offcanvas menu for plugin</li></ul><h4>1.2.5.1</h4><p><em>Release Date - 08 August 2016</em>"
+    }
+    
+}
